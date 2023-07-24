@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      * {
+        font-family: "lato", sans-serif;
+        background-color: azure;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="tagged">Menu</h2>
+
+    <input type="radio" name="fruits" value="apple" checked="checked" />
+    <label for="apple">apple</label>
+    <input type="radio" name="fruits" value="pineaple" />
+    <label for="pineaple">pineaple</label>
+    <input type="radio" name="fruits" value="mango" />
+    <label for="mango">mango</label>
+
+    <ul>
+      <li>potatoes</li>
+      <li>berries</li>
+      <li>spinach</li>
+    </ul>
+
+    <div class="desert">cake</div>
+    <div class="desert">ice cream</div>
+
+    <h3 id="mil">kms</h3>
+
+    <button id="btn">click me</button>
+
+    <div id="innerDiv">ha</div>
+
+    <div id="myDiv"></div>
+
+    <!-- <label for="firstText">first name:</label>
+    <input type="text" id="firstText" /><br />
+    <label for="lastText">last name:</label>
+    <input type="text" id="lastText" /><br />
+    <button id="submitBtn">submit</button>
+    <button id="cookieBtn">get cookies</button> -->
+
+    <div id="timerContainer">
+      <div id="timeDisplay">00:00:00</div>
+      <button id="startBtn" class="timerBtn">Start</button>
+      <button id="pauseBtn" class="timerBtn">Pause</button>
+      <button id="resetBtn" class="timerBtn">Reset</button>
+    </div>
+
+    <div id="gameDiv">
+      <h1 class="gameText" id="playerText">Player:</h1>
+      <h1 class="gameText" id="computerText">Computer:</h1>
+      <h1 class="gameText" id="resultText">Result:</h1>
+
+      <button class="choiseBtn">ROCK</button>
+      <button class="choiseBtn">PAPER</button>
+      <button class="choiseBtn">SCISSORS</button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
