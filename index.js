@@ -1,3 +1,12 @@
+// console.dir(document)
+// console.log(document.title);
+// console.log(document.URL);
+// document.title = "Title goes here!";
+// document.location = "https://www.google.com";
+
+document.body.style.backgroundColor = "skyblue";
+document.getElementById("myDiv").innerHTML = "Hello";
+
 // let element = document.getElementById("tagged");
 // element.style.color = "tan";
 
@@ -220,3 +229,37 @@ function checkWinner() {
     return player == "ROCK" ? "You Win!" : "You Lose!";
   }
 }
+
+/* TIC TAC TOE GAME */
+
+const cells = document.querySelectorAll(".cell");
+const statusText = document.getElementById("statusText");
+const restartBtn = document.getElementById("restartBtn");
+
+const winConditions = [
+  [0, 1, 2],
+  [3, 4, 5],
+  [6, 7, 8],
+  [0, 3, 6],
+  [1, 4, 7],
+  [2, 5, 8],
+  [0, 4, 8],
+  [2, 4, 6],
+];
+let options = ["", "", "", "", "", "", "", "", ""];
+let currentPlayer = "X";
+let running = false;
+
+function initializeGame() {}
+function cellClicked() {}
+function updateCell() {}
+function checkWinner() {}
+function restartGame() {}
+
+// let element = document.querySelector("[for]");
+// element.style.backgroundColor = "lightgreen";
+
+let elements = document.querySelectorAll("[for]");
+elements.forEach((element) => {
+  element.style.backgroundColor = "lightgreen";
+});
